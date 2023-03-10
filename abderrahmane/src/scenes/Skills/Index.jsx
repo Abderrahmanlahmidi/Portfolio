@@ -17,8 +17,8 @@ const Index = () => {
                  <div className="justify-center   grid-container items-center w-full">
                   {myData.map((data) => (
                     
-                         <div className="flex items-center rounded cursor-pointer transition delay-100 hover:bg-bgbutton justify-center w-[160px] h-[180px] drop-shadow-lg	 flex-col bg-card ">
-                        <img src={data.Source} alt="Html" className="w-[80px]" />
+                         <div className="flex items-center rounded cursor-pointer transition delay-100 hover:bg-bgbutton justify-center w-[140px] h-[160px] drop-shadow-lg	 flex-col bg-card ">
+                        <img src={data.Source} alt="Html" className="w-[60px]" />
                         <p className="text-fontprimary mt-[20px]">{data.title}</p>
                       </div>
                        ))}

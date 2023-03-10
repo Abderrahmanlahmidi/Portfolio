@@ -55,7 +55,24 @@ export const cardData = [
        "Project": "../../../src/assets/Project3.jpg",
     },
   ];
+export const GitHup = () => {
+    window.open("https://github.com/Abderrahmanlahmidi")
+};
 
- export const Links = () => {
-    window.open("https://github.com/")
-   }
+export const Twitter = () => {
+  window.open("https://twitter.com/Abderra47978756?t=PGvpZMhpthYMpMpxoFz5sw&s=09")
+};
+
+export const Linkedin = () => {
+  window.open("https://www.linkedin.com/in/abderrahmane-lahmidi-762354236")
+};
+
+export const Instagram = () => {
+  window.open("https://instagram.com/lahmidiabderrahman?igshid=ZDdkNTZiNTM=")
+};
+  
+
+
+export const Links = () => {
+   window.open("https://github.com/")
+}

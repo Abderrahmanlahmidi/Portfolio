@@ -4,6 +4,8 @@ import Navbar from "./scenes/Navbar/Index";
 import About from "../src/scenes/About/Index"
 import Projects from "../src/scenes/Projects/Index"
 import Skills from "../src/scenes/Skills/Index"
+import Follow from "../src/scenes/Follow/Index"
+import Contact from '../src/scenes/Contact/Index';
 
 function App() {
   const [Select, setSelect] = useState("Home")
@@ -14,7 +16,10 @@ function App() {
      <About/>
      <Skills/>
      <Projects/>
-    </div>
+     <Contact/>
+     <Follow/>
+     
+     </div>
   ) 
 }
 
