@@ -7,6 +7,7 @@ import { IconButton  } from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import Contact from "../../components/contact"
+import Logo from "../../assets/Lahmidilogo.png";
 
 
 
@@ -32,7 +33,7 @@ const Index = ({Select, setSelect}) => {
         <nav className={`${flexcontent} bg-background drop-shadow  w-full py-5 z-30 fixed top-0`} >
             <div className={`${flexcontent} mx-auto w-5/6 `}>
               <div  className={`flex justify-between  w-full `}>
-                 <h1 className="text-fontprimary mt-1  text-[20px]">Lahmidi</h1> 
+                 <img src={Logo} alt="lahmidi" className="mt-[12px] w-[150px] h-[20px]"/>
              {!useMedia ? (
               <>
                  <div className="flex gap-6 mt-[8px]">
